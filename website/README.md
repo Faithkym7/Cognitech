@@ -1,6 +1,4 @@
-Here’s the updated README tailored for **CogniTech Solutions**, highlighting your tech business and its services:  
 
----
 
 # CogniTech Solutions
 
