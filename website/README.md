@@ -1,127 +1,147 @@
-Here's a polished and detailed README file tailored for your company website hosted on GitHub:
+Here’s the updated README tailored for **CogniTech Solutions**, highlighting your tech business and its services:  
 
 ---
 
-# Company Website
+# CogniTech Solutions
 
-Welcome to the repository for **[Your Company Name]**, a professional platform offering services such as IP Management, Business Registration, Legal Documentation Drafting, and more. This website is built using the **MERN stack** to ensure scalability, performance, and seamless user interaction.
+Welcome to the official repository of **CogniTech Solutions**, your trusted partner in delivering cutting-edge technology solutions. At CogniTech Solutions, we specialize in:  
+- **Graphic Design**  
+- **Web Design**  
+- **Software Development**  
+- **Mobile Application Development**  
+
+This repository contains the source code for our official company website, showcasing our services, portfolio, and client solutions.
+
+---
 
 ## Table of Contents
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Available Scripts](#available-scripts)
-- [Folder Structure](#folder-structure)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
+- [Features](#features)  
+- [Services](#services)  
+- [Technologies Used](#technologies-used)  
+- [Getting Started](#getting-started)  
+- [Available Scripts](#available-scripts)  
+- [Folder Structure](#folder-structure)  
+- [Deployment](#deployment)  
+- [Contributing](#contributing)  
+- [License](#license)  
 
 ---
 
 ## Features
-- Intuitive UI for browsing company services.
-- Admin blogging dashboard for managing content.
-- Payment integration for seamless transactions.
-- Dynamic form submissions (e.g., "Get a Quote").
-- Responsive design for mobile and desktop.
-- Optimized performance and animations with **Framer Motion**.
+- Modern, responsive design for desktop and mobile.  
+- Portfolio showcasing our projects in web, software, and graphic design.  
+- Contact forms for easy client inquiries.  
+- Admin dashboard for content and blog management.  
+- Optimized performance for fast page loading.  
+
+---
+
+## Services
+At **CogniTech Solutions**, we provide the following services:  
+1. **Graphic Design**  
+   - Logo and branding.  
+   - Social media graphics.  
+2. **Web Design**  
+   - Custom websites.  
+   - E-commerce platforms.  
+3. **Software Development**  
+   - Tailored enterprise solutions.  
+   - Backend and frontend systems.  
+4. **Mobile Application Development**  
+   - Native and cross-platform apps.  
 
 ---
 
 ## Technologies Used
-- **Frontend:** React, Material UI, Framer Motion
-- **Backend:** Node.js, Express
-- **Database:** MongoDB
-- **Styling:** CSS, Material-UI
-- **Hosting:** [Truehost](https://www.truehost.co.ke)
+- **Frontend:** React, Material-UI, Framer Motion  
+- **Backend:** Node.js, Express  
+- **Database:** MongoDB  
+- **Styling:** CSS, Material-UI  
+- **Hosting:** [Truehost](https://www.truehost.co.ke)  
 
 ---
 
 ## Getting Started
 ### Prerequisites
-Ensure you have the following installed:
-- **Node.js** (>= 14.x)
-- **npm** (>= 6.x) or **yarn**
-- **MongoDB** (if testing locally)
+Make sure you have the following tools installed:  
+- **Node.js** (>= 14.x)  
+- **npm** or **yarn**  
+- **MongoDB** (if running backend locally)  
 
 ### Installation
-1. Clone the repository:
+1. Clone this repository:  
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-   ```
-2. Install dependencies:
+   git clone https://github.com/your-username/cognitech-solutions.git
+   cd cognitech-solutions
+   ```  
+2. Install the dependencies:  
    ```bash
    npm install
-   ```
-3. Set up environment variables:
-   - Create a `.env` file in the root directory.
-   - Add the required variables, e.g.:
+   ```  
+3. Configure environment variables:  
+   - Create a `.env` file in the root directory.  
+   - Add the required variables, e.g.:  
      ```env
-     REACT_APP_API_URL=https://your-api-url
+     REACT_APP_API_URL=https://api.cognitechsolutions.com
      MONGO_URI=mongodb+srv://your-db-connection-string
-     ```
-
-4. Start the development server:
+     ```  
+4. Start the development server:  
    ```bash
    npm start
-   ```
+   ```  
 
 ---
 
 ## Available Scripts
 
-In the project directory, you can run:
-
 ### `npm start`
-Starts the development server at [http://localhost:3000](http://localhost:3000).
+Starts the development server and opens the website at [http://localhost:3000](http://localhost:3000).  
 
 ### `npm run build`
-Builds the app for production in the `build/` directory, optimized for best performance.
+Compiles the app for production to the `build/` directory, optimized for deployment.  
 
 ### `npm test`
-Runs the test suite in interactive watch mode.
+Runs the test suite.  
 
 ### `npm run eject`
-Ejects the configuration files for full control over the build tool.
+Ejects configuration for advanced customization.  
 
 ---
 
 ## Folder Structure
-- **/src**: Contains the source code for the frontend.
-  - **components/**: Reusable UI components.
-  - **pages/**: Route-specific page components.
-  - **assets/**: Images, fonts, and static assets.
-  - **styles/**: CSS and styling files.
-- **/server**: Backend code (if hosted in the same repo).
-  - **models/**: Mongoose schemas.
-  - **routes/**: API endpoints.
+- **/src**: Contains the React app source code.  
+  - **components/**: Reusable UI components.  
+  - **pages/**: Individual website pages (e.g., About, Services, Contact).  
+  - **assets/**: Images, icons, and other static files.  
+  - **styles/**: CSS and theming files.  
+- **/server**: Backend files (if applicable).  
 
 ---
 
 ## Deployment
-This application is deployed on **[Truehost](https://www.truehost.co.ke)**. To deploy:
-1. Build the project:
+The website is hosted on **[Truehost](https://www.truehost.co.ke)**.  
+
+### Steps to Deploy:  
+1. Build the application:  
    ```bash
    npm run build
-   ```
-2. Upload the contents of the `build/` directory to the server’s `public_html` folder.
-3. Ensure that the backend server is configured and accessible.
+   ```  
+2. Upload the `build/` directory to the server (e.g., `public_html`).  
+3. Configure backend endpoints and ensure they are accessible.  
 
 ---
 
 ## Contributing
-Contributions are welcome! Here's how you can contribute:
-1. Fork the repository.
-2. Create a new branch (`feature/your-feature`).
-3. Commit your changes.
-4. Open a pull request for review.
+We welcome contributions! To contribute:  
+1. Fork the repository.  
+2. Create a new branch: `feature/your-feature`.  
+3. Commit your changes and push.  
+4. Submit a pull request for review.  
 
 ---
 
 ## License
 This project is licensed under the [MIT License](LICENSE).  
 
----
+---  
 
-Feel free to customize this README further to include any specific details about your company's branding or unique website features!
